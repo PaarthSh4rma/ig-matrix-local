@@ -85,6 +85,20 @@ This is not a hosted service. You run it yourself.
 
 You are responsible for your own Instagram account/session. Instagram may occasionally require re-authentication.
 
+---
+
+## Configuration
+
+Example configs are provided in:
+
+```txt
+config/
+```
+
+These should be copied into the data/ directory and adjusted locally.
+
+---
+
 ## Stack
 
 - Docker Compose
