@@ -14,9 +14,18 @@ Do not commit:
 - Instagram cookies
 - bridge sessions
 - generated config files with secrets
----
 
-## Quickstart
+---
+## Quick setup
+
+```bash
+git clone https://github.com/PaarthSh4rma/ig-matrix-local.git
+cd ig-matrix-local
+./scripts/setup.sh
+```
+
+---
+## Long way start
 
 ```bash
 cp .env.example .env
