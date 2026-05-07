@@ -28,3 +28,12 @@ services:
       - "8008:8008"
     volumes:
       - ./data/synapse:/data
+
+  mautrix-meta:
+    image: dock.mau.dev/mautrix/meta:latest
+    container_name: ig_matrix_bridge
+    restart: unless-stopped
+    depends_on:
+      - synapse
+    volumes:
+      - ./data/mautrix-meta:/data
