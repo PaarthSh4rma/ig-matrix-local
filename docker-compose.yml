@@ -37,3 +37,14 @@ services:
       - synapse
     volumes:
       - ./data/mautrix-meta:/data
+  
+  element:
+    image: vectorim/element-web:latest
+    container_name: ig_matrix_element
+    restart: unless-stopped
+    depends_on:
+      - synapse
+    ports:
+      - "8080:80"
+    volumes:
+      - ./config/element/config.json:/app/config.json:ro

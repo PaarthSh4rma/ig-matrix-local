@@ -39,3 +39,6 @@ configure:
 full-setup:
 	./scripts/setup.sh
 	@echo "⚠️ Run 'make configure' after editing .env"
+
+app:
+	open http://localhost:8080
