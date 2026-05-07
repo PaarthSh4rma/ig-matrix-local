@@ -287,10 +287,10 @@ appservice:
     # Appservice bot details.
     bot:
         # Username of the appservice bot.
-        username: metabot
+        username: igbot
         # Display name and avatar for bot. Set to "remove" to remove display name/avatar, leave empty
         # to leave display name/avatar as-is.
-        displayname: Meta bridge bot
+        displayname: Instagram
         avatar: remove
     
     # Whether to receive ephemeral events via appservice transactions.

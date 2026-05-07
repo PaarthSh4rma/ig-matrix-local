@@ -5,7 +5,17 @@
       "server_name": "localhost"
     }
   },
-  "disable_custom_urls": false,
+
+  "brand": "IG Local",
+
+  "disable_custom_urls": true,
   "disable_guests": true,
-  "brand": "IG Matrix Local"
+
+  "default_theme": "dark",
+
+  "show_labs_settings": false,
+
+  "room_directory": {
+    "servers": []
+  }
 }

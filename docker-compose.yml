@@ -48,3 +48,12 @@ services:
       - "8080:80"
     volumes:
       - ./config/element/config.json:/app/config.json:ro
+
+  landing:
+    image: nginx:alpine
+    container_name: ig_matrix_landing
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    volumes:
+      - ./landing:/usr/share/nginx/html:ro
