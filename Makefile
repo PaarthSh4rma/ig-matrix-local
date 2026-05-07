@@ -32,3 +32,6 @@ synapse-logs:
 
 check:
 	./scripts/check.sh
+
+configure:
+	./scripts/configure.sh

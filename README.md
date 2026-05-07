@@ -107,6 +107,13 @@ config/
 These should be copied into the data/ directory and adjusted locally.
 
 ---
+## Configure bridge
+
+```bash
+make configure
+```
+---
+
 
 ## Stack
 
