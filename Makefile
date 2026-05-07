@@ -29,3 +29,6 @@ bridge-logs:
 
 synapse-logs:
 	docker compose logs -f synapse
+
+check:
+	./scripts/check.sh
